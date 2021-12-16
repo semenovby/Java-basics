@@ -16,7 +16,6 @@ public class ArrayNew {
         for (int cell = 0; cell < 10; cell++) {
             System.out.println(Array[cell]);
             if (Array[cell] == finder) {                                      //совпадение искомого значения
-                Array[cell] = Array[cell + 1];                                //удаление или сдвиг найденной ячейки
                 for (int slider = cell; slider < 9; slider++) {               //сдвиг массива влево
                     Array[slider] = Array[slider + 1];
                 }
