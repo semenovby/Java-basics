@@ -1,10 +1,4 @@
-import javax.swing.*;
-import java.awt.print.Printable;
-import java.nio.file.FileSystemNotFoundException;
-import java.sql.SQLOutput;
-import java.util.function.DoubleToIntFunction;
-
-public class Znacheniya {
+public class Numbers {
 
     //1.3 Максимальное, минимальное и среднее значение
     //Задача:
