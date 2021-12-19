@@ -5,6 +5,8 @@ import java.sql.SQLOutput;
 import java.util.function.DoubleToIntFunction;
 
 public class Znacheniya {
+
+
     //1.3 Максимальное, минимальное и среднее значение
     //Задача:
     //Заполните массив случайным числами и выведите максимальное, минимальное и среднее значение.
