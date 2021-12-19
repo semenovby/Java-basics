@@ -14,7 +14,6 @@ public class ArrayNew {
         Array[8] = 7;
         Array[9] = 9;
 
-
         int finder = 8;                                                                 //поиск знаения ячейки
         int counter = 0;                                                                //счетчик совпадений
 
