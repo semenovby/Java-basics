@@ -18,7 +18,7 @@ public class Tabs {
             }
         }
         in.close();
-        if (countGoodAnswer > 10) {
+        if (countGoodAnswer == 10) {
             System.out.println("Правильных ответов: " + countGoodAnswer);
             System.out.println("Отлично!");
         } else if ((countGoodAnswer >= 8) && (countGoodAnswer <= 9)) {
