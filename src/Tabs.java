@@ -25,10 +25,10 @@ public class Tabs {
             System.out.println("Правильных ответов: " + countGoodAnswer);
             System.out.println("Хорошо!");
         } else if ((countGoodAnswer >= 6) && (countGoodAnswer <= 7)) {
-            System.out.println("Неравильных ответов: " + countGoodAnswer);
+            System.out.println("Правильных ответов: " + countGoodAnswer);
             System.out.println("Удовлетворительно!");
         } else if (countGoodAnswer <= 5) {
-            System.out.println("Неравильных ответов: " + countGoodAnswer);
+            System.out.println("Правильных ответов: " + countGoodAnswer);
             System.out.println("Плохо!");
         }
     }
