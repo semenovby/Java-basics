@@ -29,7 +29,7 @@ public class Tabs {
             System.out.println("Удовлетворительно!");
         } else if (countGoodAnswer <= 5) {
             System.out.println("Неравильных ответов: " + countGoodAnswer);
-            System.out.println("Удовлетворительно!");
+            System.out.println("Плохо!");
         }
     }
 }
