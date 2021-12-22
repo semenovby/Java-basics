@@ -24,7 +24,7 @@ public class Tabs {
         } else if ((countGoodAnswer >= 8) && (countGoodAnswer <= 9)) {
             System.out.println("Правильных ответов: " + countGoodAnswer);
             System.out.println("Хорошо!");
-        } else if ((countGoodAnswer >= 6) && (countGoodAnswer < 8)) {
+        } else if ((countGoodAnswer >= 6) && (countGoodAnswer <= 7)) {
             System.out.println("Неравильных ответов: " + countGoodAnswer);
             System.out.println("Удовлетворительно!");
         } else if (countGoodAnswer <= 5) {
