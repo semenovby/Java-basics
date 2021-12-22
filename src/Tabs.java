@@ -7,8 +7,8 @@ public class Tabs {
         in.nextInt();
         int countGoodAnswer = 0;
         for (int i = 0; i < 10; i++) {
-            int a = (int) (Math.random() * 11);
-            int b = (int) (Math.random() * 11);
+            int a = 1 + (int) (Math.random() * 10);
+            int b = 1 + (int) (Math.random() * 10);
             System.out.print(a + "х" + b + "= ");
             if (a * b == in.nextInt()) {
                 System.out.println("Молодец!Правильно!");
