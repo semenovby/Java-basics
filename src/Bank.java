@@ -11,7 +11,7 @@ public class Bank {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-        System.out.println("Для активации программы введи любое целое число и нажми ENTER: ");
+        System.out.println("Введите сумму кредита и нажмите ENTER: ");
         double startDebt = in.nextInt();
         in.close();
         double totalDebt = startDebt;
