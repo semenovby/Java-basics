@@ -7,7 +7,7 @@ public class Bank {
             1. Если мы не выплачиваем ничего вообще.
             2. Если мы платим каждый год 10% от начальной суммы.
             3. Если мы платим каждый год 10% от накопившегося долга.
-*/
+    */
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
@@ -18,7 +18,7 @@ public class Bank {
         System.out.println("Вы взяли кредит на сумму = " + totalDebt);
         int bankPersent = 20;
         int persentTotalDebt = 0;
-        int persentDolg = 10;
+        int persentDolg = 0;
 
         double difference = 0;
         int countYears = 0;
